@@ -39,7 +39,8 @@
   }
 }
 
-
+@layer base {
+  body {
     @apply bg-[#0F172A] text-foreground antialiased;
     font-feature-settings: 'rlig' 1, 'calt' 1;
   }
